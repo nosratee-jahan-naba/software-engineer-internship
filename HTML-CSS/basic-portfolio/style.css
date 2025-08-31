@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header,footer{
+    background-color: lightblue;
+}
+body {
+  background-color: rgb(252, 254, 255);
+}
+
+h1 {
+  color: rgb(28, 1, 1);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+.box {
+  background: tomato;
+}
+
+.box1 {
+  background: rgb(255, 255, 92);
+}
+.box2 {
+  background: rgb(92, 255, 116);
+  grid-area: 4/4;
+}
+.box3 {
+  background: rgb(92, 97, 255);
+  grid-area: 4/1;
+}
+.box4 {
+  background: rgb(255, 144, 92);
+  grid-area: 3/3;
+}
